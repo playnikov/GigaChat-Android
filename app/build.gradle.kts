@@ -1,6 +1,10 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.jetbrains.kotlin.serialization)
+    id("com.google.gms.google-services")
+    alias(libs.plugins.ksp)
+    alias(libs.plugins.hilt)
 }
 
 android {
@@ -36,6 +40,22 @@ android {
 }
 
 dependencies {
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.androidx.credentials)
+    implementation(libs.androidx.credentials.play.services.auth)
+    implementation(libs.firebase.analytics)
+    implementation(libs.androidx.navigation3.ui)
+    implementation(libs.androidx.navigation3.runtime)
+    implementation(libs.androidx.lifecycle.viewmodel.navigation3)
+    implementation(libs.androidx.material3.adaptive.navigation3)
+    implementation(libs.firebase.auth)
+    implementation(libs.googleid)
+    implementation(libs.kotlinx.serialization.core)
+    implementation(libs.androidx.compose.material.icons.extended)
+    implementation(libs.hilt.android)
+    implementation(libs.hilt.navigation.compose)
+    ksp(libs.hilt.android.compiler)
+
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.compose.material3)

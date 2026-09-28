@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">GigaChat</string>
+
+    <string name="enter_email">Введите электронную почту</string>
+    <string name="enter_password">Введите пароль</string>
+    <string name="enter_confirm_password">Введите пароль повторно</string>
+    <string name="sign_in">Войти</string>
+    <string name="no_account">Нет аккаунта?</string>
+    <string name="yes_account">Есть аккаунта?</string>
+    <string name="sign_up">Зарегистрироваться</string>
+    <string name="sign_with_google">Войти с помощью Google</string>
+    <string name="or">или</string>
 </resources>

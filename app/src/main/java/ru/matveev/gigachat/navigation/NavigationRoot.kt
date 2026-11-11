@@ -11,7 +11,6 @@ import androidx.navigation3.ui.NavDisplay
 import androidx.savedstate.serialization.SavedStateConfiguration
 import kotlinx.serialization.modules.SerializersModule
 import kotlinx.serialization.modules.polymorphic
-import ru.matveev.gigachat.navigation.auth.NavigationAuth
 
 @Composable
 fun NavigationRoot(
@@ -47,7 +46,12 @@ fun NavigationRoot(
             }
 
             entry<Route.Main> {
-
+                NavigationMain(
+                    onLogout = {
+                        rootBackStack.remove(Route.Main)
+                        rootBackStack.add(Route.Auth)
+                    }
+                )
             }
         }
     )

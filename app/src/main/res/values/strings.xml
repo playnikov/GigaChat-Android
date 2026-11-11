@@ -6,8 +6,61 @@
     <string name="enter_confirm_password">Введите пароль повторно</string>
     <string name="sign_in">Войти</string>
     <string name="no_account">Нет аккаунта?</string>
-    <string name="yes_account">Есть аккаунта?</string>
+    <string name="yes_account">Есть аккаунт?</string>
     <string name="sign_up">Зарегистрироваться</string>
     <string name="sign_with_google">Войти с помощью Google</string>
     <string name="or">или</string>
+
+    <string name="title_chats">Чаты</string>
+    <string name="search_chats">Поиск по чатам…</string>
+    <string name="chats_empty">Пока нет чатов</string>
+    <string name="chats_not_found">Ничего не найдено</string>
+    <string name="chat_untitled">Новый чат</string>
+    <string name="chat_no_messages">Нет сообщений</string>
+
+    <string name="title_chat">Чат</string>
+    <string name="cd_back">Назад</string>
+    <string name="cd_edit_title">Изменить название</string>
+    <string name="cd_delete_chat">Удалить чат</string>
+    <string name="delete_chat_title">Удалить чат?</string>
+    <string name="delete_chat_message">Чат «%1$s» будет удалён.</string>
+    <string name="delete">Удалить</string>
+    <string name="rename_chat_title">Название чата</string>
+    <string name="rename_chat_hint">Введите название</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="chat_message_hint">Сообщение…</string>
+    <string name="chat_send">Отправить</string>
+    <string name="cd_send_message">Отправить сообщение</string>
+    <string name="cd_select_model">Выбрать модель</string>
+    <string name="chat_author_user">Я</string>
+    <string name="chat_author_assistant">GigaChat</string>
+    <string name="chat_message_line">%1$s: %2$s</string>
+    <string name="chat_streaming_line">%1$s▍</string>
+    <string name="chat_error">Ошибка: %1$s</string>
+    <string name="cd_message_failed">Сообщение не отправлено</string>
+    <string name="cd_copy_message">Копировать сообщение</string>
+    <string name="cd_message_copied">Скопировано</string>
+
+    <string name="cd_email">Поле ввода электронной почты</string>
+    <string name="cd_password">Поле ввода пароля</string>
+    <string name="cd_show_password">Показать пароль</string>
+    <string name="cd_hide_password">Скрыть пароль</string>
+    <string name="cd_open_menu">Открыть меню</string>
+    <string name="cd_search">Поиск</string>
+    <string name="cd_close_search">Закрыть поиск</string>
+    <string name="cd_new_chat">Новый чат</string>
+    <string name="cd_create_chat">Создать новый чат</string>
+    <string name="cd_google">Google</string>
+    <string name="cd_images">Изображения</string>
+    <string name="cd_all_chats">Все чаты</string>
+    <string name="cd_profile">Профиль</string>
+    <string name="cd_logout">Выйти</string>
+
+    <string name="menu_name">GigaChat</string>
+    <string name="menu_new_chat">Новый чат</string>
+    <string name="menu_images">Изображения</string>
+    <string name="menu_chats">Все чаты</string>
+    <string name="menu_profile">Профиль</string>
+    <string name="menu_logout">Выйти</string>
 </resources>
